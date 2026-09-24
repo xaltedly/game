@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cj1bvruwew5fs"]
+
+[ext_resource type="PackedScene" uid="uid://wpkhqogguipm" path="res://block.tscn" id="1_hbghi"]
+[ext_resource type="PackedScene" uid="uid://cj1bvruwew5fs" path="res://level_1.tscn" id="2_hn12h"]
+
+[node name="Level1" unique_id=631968196 instance=ExtResource("2_hn12h")]
+
+[node name="Block" parent="." index="0" unique_id=1035524799 instance=ExtResource("1_hbghi")]
+position = Vector2(-1, -56)
